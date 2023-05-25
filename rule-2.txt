@@ -1,0 +1,274 @@
+[
+  {
+    "state": 0,
+    "type": "DHTt",
+    "icon": "cold.png",
+    "name": "夏天温度",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "aircon",
+        "state": 0,
+        "tt": 24,
+        "mode": 0
+      }
+    ],
+    "condition": {
+      "max": 28,
+      "min": 20
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 30,
+      "min": 16
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "DHTt",
+    "icon": "heat.png",
+    "name": "冬天温度",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "aircon",
+        "state": 0,
+        "tt": 24,
+        "mode": 1
+      }
+    ],
+    "condition": {
+      "max": 10,
+      "min": 26
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 30,
+      "min": 16
+    },
+    "isSave": false
+  },
+  {
+    "state": 1,
+    "type": "ALS",
+    "icon": "light-sensitive.png",
+    "name": "光感大于",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "curtain",
+        "state": 2
+      }
+    ],
+    "condition": {
+      "max": 80,
+      "min": 50
+    },
+    "scene": 877,
+    "viewRange": {
+      "max": 22711,
+      "min": 0
+    },
+    "timeLimit": {
+      "start": "2023-05-23T16:00:00.000Z",
+      "end": "2023-05-25T16:00:00.000Z"
+    },
+    "isSave": true,
+    "isShow": true
+  },
+  {
+    "state": 0,
+    "type": "ALS",
+    "icon": "light-sensitive.png",
+    "name": "光感小于",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "curtain",
+        "state": 2
+      }
+    ],
+    "condition": {
+      "max": 80,
+      "min": 50
+    },
+    "scene": 877,
+    "viewRange": {
+      "max": 22711,
+      "min": 0
+    },
+    "timeLimit": {
+      "start": "",
+      "end": ""
+    },
+    "isSave": true,
+    "isShow": true
+  },
+  {
+    "state": 0,
+    "type": "PM25",
+    "icon": "PM2.5.png",
+    "name": "PM2.5",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "airpure",
+        "state": 0,
+        "air": 1
+      }
+    ],
+    "condition": {
+      "max": 200,
+      "min": 180
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 6000,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "PM10",
+    "icon": "PM10.png",
+    "name": "PM10",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "airpure",
+        "state": 0,
+        "air": 1
+      }
+    ],
+    "condition": {
+      "max": 150,
+      "min": 130
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 6000,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "CO2",
+    "icon": "co2.png",
+    "name": "二氧化碳",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "airpure",
+        "state": 0,
+        "air": 1
+      }
+    ],
+    "condition": {
+      "max": 1000,
+      "min": 900
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 6000,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "CH2O",
+    "icon": "formaldehyde.png",
+    "name": "甲醛",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "airpure",
+        "state": 0,
+        "air": 1
+      }
+    ],
+    "condition": {
+      "max": 80,
+      "min": 70
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 6000,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "TVOC",
+    "icon": "TVOC.png",
+    "name": "TVOC",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "airpure",
+        "state": 0,
+        "air": 1
+      }
+    ],
+    "condition": {
+      "max": 500,
+      "min": 400
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 6000,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "DHTh",
+    "icon": "humidity.png",
+    "name": "湿度",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "switch",
+        "state": 0
+      }
+    ],
+    "condition": {
+      "max": 50,
+      "min": 80
+    },
+    "scene": "",
+    "viewRange": {
+      "max": 100,
+      "min": 0
+    },
+    "isSave": false
+  },
+  {
+    "state": 0,
+    "type": "PIR",
+    "icon": "humantouch.png",
+    "name": "人感",
+    "description": "暂未配置，请点击进入，配置后使用",
+    "action": [
+      {
+        "type": "light",
+        "state": 0
+      }
+    ],
+    "condition": {
+      "max": ""
+    },
+    "scene": "",
+    "isSave": false,
+    "delayTime": 0,
+    "timeLimit": {
+      "start": "",
+      "end": ""
+    }
+  }
+]
